@@ -1,0 +1,5 @@
+search_tweets_premium:
+  account_type: premium
+  endpoint: https://api.twitter.com/1.1/tweets/search/fullarchive/AshokTwitterFullArchive.json
+  consumer_key: 6BclGDOiM9wq2tSZccn75KKkL
+  consumer_secret: O7OQSgu596QOHiKrr6u2ZlAQwWm4952QF3A1rG678EmPUX4CWN
