@@ -27,11 +27,11 @@ provider:
   region: ap-south-1
   environment:
     DYNAMODB_TABLE: ${self:service}-${opt:stage, self:provider.stage}
-    CONSUMER_KEY: TCx49uGDg6OkbaW0MQnb0bD4o
-    CONSUMER_SECRET: ORVwSvJYMqt3DyCH3Q2JLFdTkmjwzH9cfepic36pcfVgTihkvr
+    CONSUMER_KEY: <GENERATE_AND_REPLACE_WITH_ACTUAL_VALUE>
+    CONSUMER_SECRET: <GENERATE_AND_REPLACE_WITH_ACTUAL_VALUE>
     FULLARCHIVE_TWEETSEARCH_ENDPOINT: https://api.twitter.com/1.1/tweets/search/fullarchive/AshokTwitterFullArchive.json
-    ACCESS_TOKEN: 840889837-DergjcVluSPUAhQI3guWTIdhr8N2vzN3KIOuUUQe
-    ACCESS_TOKEN_SECRET: rGKNnXyMYebYAge33zZAs94O9xW9yLAOEwqvunLR1RETp
+    ACCESS_TOKEN: <GENERATE_AND_REPLACE_WITH_ACTUAL_VALUE>
+    ACCESS_TOKEN_SECRET: <GENERATE_AND_REPLACE_WITH_ACTUAL_VALUE>
   iamRoleStatements:
     - Effect: Allow
       Action:
